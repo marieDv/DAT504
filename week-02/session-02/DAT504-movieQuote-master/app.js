@@ -37,7 +37,7 @@ app.get('/', (request, response) => {
 
 app.post('/addressbook/business', (req, res) => {
 const newBusiness = new Business(req.body);
-console.log("?????????????????????????? REQUEST SENT")
+console.log("REQUEST SENT")
 newBusiness.save(function(error){
   if (error) throw error;
   return res.send(`Saved ${req.body.name} to address book`);

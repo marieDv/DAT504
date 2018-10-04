@@ -1,4 +1,3 @@
-<script>
 console.log(min(20, 20));
 function min(x, y){
   if(x <= y){
@@ -7,4 +6,3 @@ function min(x, y){
     return y;
   }
 }
-</script>

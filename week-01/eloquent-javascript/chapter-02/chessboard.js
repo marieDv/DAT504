@@ -1,4 +1,3 @@
-<script>
 let tag = ["#","\xa0\xa0"];
 let board = "";
 let size = 8;
@@ -16,4 +15,3 @@ for(let i=1; i<finalboardsize; i++){
 }
 
 console.log(board);
-</script>

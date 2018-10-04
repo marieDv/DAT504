@@ -1,4 +1,3 @@
-<script>
 console.log(isEven(50));
 
 function isEven(nmbr){
@@ -15,4 +14,3 @@ function isEven(nmbr){
 		return "Err: please add a valid number!";
 	}
 }
-</script>

@@ -1,4 +1,3 @@
-<script>
 console.log(countChar("Beeeeeebb", "b"));
 
 function countChar(word, counter){
@@ -10,4 +9,3 @@ for(let i=0; i<word.length;i++){
 }
 return nmbrB;
 }
-</script>

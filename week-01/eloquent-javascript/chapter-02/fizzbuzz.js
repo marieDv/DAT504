@@ -1,4 +1,3 @@
-<script>
 let nmbr = 1;
 for(let i=0; i<100; i++){
 	if((nmbr %3 === 0) && (nmbr %5 === 0)){
@@ -12,4 +11,3 @@ for(let i=0; i<100; i++){
   }
   nmbr ++;
 }
-</script>
